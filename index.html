@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Alexandre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="icons/home.png" alt="Ícone do Blog">
+        </a>
+        <nav class="menu">
+            <a href="blog/blog.html" class="menu-item">Blog</a>
+            <a id="menu-projects" href="projects/projects.html" class="menu-item">Projects</a>
+            <a id="menu-donations" href="donations.html" class="menu-item">Donations</a>
+            
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">English</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu-2">
+                    <li class="active" data-lang="en">English</li>
+                    <li data-lang="pt-br">Português</li>
+                    <li data-lang="es">Español</li>
+                    <li data-lang="ja">日本語</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2 id="introduction-apre">👋 Hello, I'm <span class="highlight">Ryan</span></h2>
+            <p id="introduction-text">I am a technology enthusiast with a passion for web development and design, but my curiosity goes far beyond that. I aim to study Computer Science and love exploring everything technology has to offer. Here, you'll find posts about my experiences, projects, and the adventures I encounter along the way. My interests range from programming and design to the fascinating world of computing and much more. Feel free to follow my journey and explore everything I share here!<br><br>You can find my projects on my <a href="projects/projects.html" class="highlight-link">projects page</a> or on my <a href="github.com" class="highlight-link-github">GitHub</a>.<br><br>Or perhaps you would like to learn more about how I think, my workflow and much more over at my <a href="blog/blog.html" class="highlight-link-blog">blog</a>.</p>
+            <h3 id="introduction-contact">📧 You can reach me at</h3>
+            <ul class="topics-list" id="contact-list">
+                <li><a href="https://ryan.contact/" class="highlight-contact">Quick Contact</a></li>
+                <li>Discord: <a href="https://discord.gg/8RVhHeJH3x" class="highlight-discord-server">ryanbarboza</a>, the link here is to my discord server</li>
+                <li>Email <a href="me@ryanbarboza.com" class="highlight-mycontact">[at] ryanbarboza [dot] com</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="translation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
